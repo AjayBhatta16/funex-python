@@ -1,0 +1,17 @@
+FunEx docs
+
+Constructor variables:
+    expr - the expression for the function to be parsed, e.g. "2x+3", "4y^2", "-sin(z)"
+    var - the letter used for the variable, e.g. "x", "y", "z"
+
+Usage:
+Use + and - to add and subtract terms
+    e.g. f(x)=x-7, f=FunEx("x-7","x")
+         g(x)=x+3, g=FunEx("x+3","x")
+No symbol needed for coefficients, but * can be used
+    e.g. f(x)=2x, f=FunEx("2x","x"), f=FunEx("2*x","x")
+Use ^ for exponentiation
+    e.g. "x^2"
+
+Changelog:
+Version 1.0.1 - Created FunEx with support for all polynomial functions
